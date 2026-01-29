@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practical5</string>
+    <string name="menu_text">Menu</string>
+    <string name="menu_name_input_hint">Menu Name</string>
+    <string name="menu_price_input_hint">Menu Price</string>
+    <string name="submit_button_text">Add Menu</string>
+</resources>
