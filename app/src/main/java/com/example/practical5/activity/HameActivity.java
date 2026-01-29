@@ -70,6 +70,10 @@ public class HameActivity extends AppCompatActivity {
                 list.add( new Recipe(menuName.getText().toString(), menuPrice.getText().toString(), selectedImage));
 
                 recipeAdpater.notifyItemInserted(list.size()-1);
+
+                menuName.setText("");
+                menuPrice.setText("");
+                productImage.setImageResource(R.drawable.image_icon);
             }
         });
 
